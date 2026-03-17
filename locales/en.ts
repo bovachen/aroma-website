@@ -1,0 +1,85 @@
+const en = {
+  nav: {
+    home: 'Home',
+    scentNotes: 'Scent Notes',
+    products: 'Products',
+    about: 'About',
+    explore: 'Explore',
+  },
+  hero: {
+    label: 'Willonack · Natural Scent Aesthetics',
+    title1: 'Breathing',
+    title2: 'is ritual.',
+    subtitle: 'A whisper of mist—a moment to meet yourself',
+    exploreProducts: 'Explore Products',
+    scentSeries: 'Scent Series',
+    scrollDown: 'Scroll Down',
+  },
+  scentNotes: {
+    sectionLabel: 'Scent Notes',
+    title: 'A Journey of the Senses',
+    desc: 'Each fragrance is carefully crafted to bloom layer by layer across time',
+  },
+  scentTypes: {
+    前调: 'Top Note',
+    中调: 'Heart Note',
+    后调: 'Base Note',
+  },
+  products: {
+    sectionLabel: 'Our Products',
+    title: 'Each one, a philosophy of living',
+    viewDetails: 'View Details',
+  },
+  about: {
+    sectionLabel: 'About Us',
+    title1: 'Scent is the most honest',
+    title2: 'trigger of memory',
+    p1: 'Willonack was born from a pursuit of natural scent aesthetics. We believe a perfectly placed fragrance can quietly transform the quality of a space—and even a state of mind.',
+    p2: "Every product undergoes dozens of olfactory tests and iterations. From raw materials to packaging design, we care about one thing: when you take a breath, do you truly feel something?",
+    stat1Num: '52+',
+    stat1Label: 'Scent Formulas',
+    stat2Num: '3 yrs+',
+    stat2Label: 'Olfactory Research',
+    stat3Num: '100k+',
+    stat3Label: 'Happy Customers',
+    quoteText:
+      'Olfaction is the only sense directly connected to the limbic system—the region that governs emotion and memory.',
+    quoteSource: '— Neurobiology Research',
+    customTitle: 'Bespoke Scent Solutions',
+    customDesc:
+      'We offer one-on-one custom fragrance services for hotels, spas, offices, and individuals. A dedicated consultant guides you from concept to final scent.',
+    customCta: 'Request a Consultation',
+  },
+  footer: {
+    tagline: 'Natural Scent Aesthetics',
+    subTagline: 'Redefine your space with scent',
+    products: 'Products',
+    diffuser: 'Diffuser',
+    essentialOil: 'Essential Oils',
+    candle: 'Candles',
+    reedDiffuser: 'Reed Diffusers',
+    services: 'Services',
+    bespoke: 'Bespoke Scent',
+    collaboration: 'Collaborations',
+    aboutUs: 'About Us',
+    contact: 'Contact',
+    whatsapp: 'WhatsApp',
+    copyright: 'All rights reserved.',
+    motto: 'Measure life with scent.',
+  },
+  productDetail: {
+    back: 'Back to Products',
+    volume: 'Volume / Weight',
+    category: 'Category',
+    whatsapp: 'WhatsApp Enquiry',
+    email: 'Send Email',
+    customTitle: 'Need a bespoke scent solution?',
+    customDesc:
+      'We provide one-on-one custom fragrance consulting for hotels, spas, offices, and individuals—from brief to finished scent.',
+    customCta: 'Get in Touch',
+    relatedTitle: 'You May Also Like',
+  },
+};
+
+export default en;
+export type Translations = typeof en;

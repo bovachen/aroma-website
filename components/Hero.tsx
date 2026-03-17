@@ -2,7 +2,6 @@
 
 import { useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
-import Image from 'next/image';
 import { useLanguage } from '@/lib/i18n';
 import styles from './Hero.module.css';
 
@@ -22,13 +21,14 @@ export default function Hero() {
   return (
     <section className={styles.hero} ref={containerRef} id="home">
       <div className={styles.imageWrap}>
-        <Image
-          src="/hero.png"
-          alt="Aurora Diffuser Mist"
-          fill
-          priority
-          quality={95}
-          style={{ objectFit: 'cover', objectPosition: 'center' }}
+        <video
+          className={styles.video}
+          src="/hero.mp4"
+          autoPlay
+          muted
+          loop
+          playsInline
+          poster="/hero.png"
         />
         <div className={styles.overlay} />
       </div>
